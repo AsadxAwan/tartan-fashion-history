@@ -1,0 +1,584 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+	font-size: 16px;
+}
+
+section, header, footer, nav, div, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+
+section {
+    float: left;
+    display: block;
+    height: 100%;
+    padding: 0px 0 0 0;
+    margin: 0;
+}
+
+.image {
+	height: 100%;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+
+.text {
+	height: 100%;
+	width: 50%;
+	margin: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	
+	float: left;
+}
+
+
+/*............................................................................ Section 1 - Homepage  ...*/
+#section-section1 {
+    background-image: url("../images/section-1-homepage/section-1-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*... home page text container ...*/
+.heading {
+	height: auto;
+	width: auto;
+	margin-top: 6.66%;
+	margin-left: 6.66%;
+} 
+
+
+/*... Main Heading ...*/
+.heading h1 {
+	font-size: 3.5rem;
+    font-family: lato;
+    font-weight: 100;
+
+	
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;    
+    animation: 1s slidein-left;
+}
+
+@keyframes slidein-left {
+    0% {
+        transform: translateX(-100%);
+    }
+       
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+/*... button ...*/
+.button {
+	margin-top: 1.5rem;
+    background: none;
+    border: 0.0625rem solid black;
+	width: 15%;
+    transition: 0.2s;
+    animation: ease in;
+}
+
+button:hover {
+  border: 0.375rem solid black;
+  cursor: pointer;
+}
+
+.button p {
+	color: black;
+	text-align: center;
+	padding: 1.5rem;
+	font-size: 1.125rem;
+	font-weight: 300;
+}
+
+/*... Button fade in effect ...*/
+.button {
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;    
+    animation: 0.8s slidein-up;    
+}
+
+@keyframes slidein-up {
+    0% {
+        transform: translateY(400%);
+        opacity: 0.7;
+    }
+       
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/*... Sub-heading ...*/
+.subhead {
+   margin-top: 1.5rem;
+   font-size: 1.5rem;
+   font-family: lato;
+   font-weight: 300;
+   animation-iteration-count: 1;
+   animation-timing-function: ease-in;
+   animation-duration: 3s;    
+   animation: 0.8s slidein-up; 
+}
+
+@keyframes slidein-up {
+    0% {
+        transform: translateY(400%);
+        opacity: 0.7;
+    }
+       
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/*............................................................................ Section 2 - History ...*/
+#section-section2 {
+    background: white;
+}
+
+.morier {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+h3 {
+    font-family: lato;
+    font-size: 1.875rem;
+	margin-bottom: 2%;
+}
+
+
+p {
+    font-family: lato;
+	text-align: justify;
+	font-size: calc(0.70rem + 0.25vw);
+}
+
+
+/*............................................................................ Section 3 - Elle Magazine Italia ...*/
+#section-section3 {
+    background-image: url("../images/section-3-elle-magazine-italia/elle-magazine-italia.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/*............................................................................ Section 4 - The 1970/80s ...*/
+#section-section4 {
+    background: white;
+}
+
+/*...vivenne westwood interview video...*/
+.westwood-vid {
+    position: relative;
+    transform: translateY(50%); 
+	box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+}
+
+
+
+
+/*............................................................................ Section 5 - Vogue Kenya ...*/
+#section-section5 {
+    background-image: url("../images/section-5-vogue-kenya/section-5-vogue-kenya.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;  
+}
+
+/*............................................................................ Section 6 - The 1990s ...*/
+#section-section6 {
+    background-color: white; 
+}
+
+
+/*............................................................................ Section 7 - Lewis Hamilton GQ Magazine ...*/
+#section-section7 {
+    background-image: url("../images/section-7-lewis-hamilton-gq/section-7-lewis-hamilton-gq.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/*............................................................................ Section 8 - The 2000s ...*/
+#section-section8 {
+    background-color: white; 
+}
+
+.vid {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+/*............................................................................ Section 9 - Billie Eilish GQ Magazine ...*/
+#section-section9 {
+    background-image: url("../images/section-9-billie-eilish-gq/section-9-billie-eilish-gq.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/*............................................................................ Section 10 - 3D Museum Gallery ...*/
+#section-section10 {
+    background-color: white; 
+}
+
+.gallery-text h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.gallery-p {
+	padding: 0;
+	text-align: center;
+}
+
+
+/*............................................................................ Section 11 - Marie Claire ...*/
+#section-section11 {
+	background-image: url("../images/section-11-marie-claire/section-11-marie-claire.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+/*............................................................................ Section 12 - Present Day ...*/
+#section-section12 {
+    background-color: white; 
+}
+
+
+
+/*............................................................................ Section 13 - Stormzy Elle Magazine ...*/
+#section-section13 {
+    background-image: url("../images/section-13-stormzy-elle-magazine/section-13-stormzy-elle-magazine.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/*............................................................................ Section 14 - 2020s and beyond ...*/
+#section-section14 {
+    background-color: white; 
+}
+
+
+
+
+/*............................................................................previous / next arrows...*/
+.horizon-prev, .horizon-next {
+    position: fixed;
+    top: 50%;
+    margin-top: -24px;
+    z-index: 9999;
+}
+
+.horizon-prev {
+    left: 20px;
+}
+
+.horizon-next {
+    right: 20px;
+}
+
+
+/*... For desktop ...*/
+
+@media only screen and (min-width: 1600px) {
+
+/*... Section 4 - The 1970/80s ...*/
+#section-section4 {
+    background: white;
+}
+
+
+/*...vivenne westwood interview video...*/
+.westwood-vid { 
+	transform: none;
+	box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+}
+
+			
+}
+
+
+/*... For mobile viewport ..*/ /*... max-widht was 1242px*/
+
+@media only screen and (max-width: 500px) { 
+	
+	
+.image {
+	height: auto;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+	
+.text {
+	height: 60%;
+	width: 100%;
+	clear: both;
+	padding-left: 2%;
+	padding-right: 3%;
+	padding-top: 3%;
+	
+}	
+	
+	
+h3 {
+    font-family: lato;
+    font-size: 1.5rem;
+	padding-left: 3%;
+}
+
+	
+/*...section 1 - Homepage...*/
+#section-section1 {
+    background-image:url("../images/section-1-homepage/section-1-background-mobile.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+}
+	
+.heading {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding-top: 30%;
+	position: relative;
+}
+	
+.heading h1 {
+	text-align: center;
+	font-size: 2rem;
+}	
+	
+.button {
+  position: relative;
+  left: 35%;
+  width: 30%;
+}
+	
+.button P {
+  font-size: 1rem;	
+  text-align: center;
+}
+	
+.subhead {
+	text-align: center;
+}	
+	
+	
+/*... Section 2 - History...*/	
+#section-section2 {
+    background: white;
+}	
+	
+.history {
+    font-family: lato;
+	text-align: justify;
+	font-size: 1.5vh;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	line-height: 120%;
+}
+	
+.morier {
+    width: 100%;
+	height: auto;	
+}
+	
+	
+/*... section 3 - Elle Magazine Italia ...*/
+#section-section3 {
+    background-image: url("../images/section-3-elle-magazine-italia/elle-magazine-italia-mobile.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+}
+	
+
+/*... section 4 - The 1970/1980s ...*/
+	
+.westwood-vid {
+   width: 100%;
+   height: auto;
+   transform: translateY(0%);
+   box-shadow: none;
+   margin: 0;
+   padding: 0;
+}
+	
+.seventies {
+    font-family: lato;
+	text-align: justify;
+	font-size: 1.6vh;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	line-height: 120%;
+}	
+	
+/*... section 5 - Vogue Kenya ...*/
+#section-section5 {
+    background-image: url("../images/section-5-vogue-kenya/section-5-vogue-kenya-mobile.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+}
+	
+	
+/*... Section 6 - The 1990s ...*/
+.nineties {
+    font-family: lato;
+	text-align: justify;
+	font-size: 1.6vh;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	line-height: 120%;
+}		
+	
+	
+/*... Section 7 - Lewis Hamilton GQ Magazine ...*/
+#section-section7 {
+    background-image: url("../images/section-7-lewis-hamilton-gq/section-7-lewis-hamilton-gq-mobile.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+}	
+	
+	
+/*........... Section 8 - The 2000/2010s .........*/	
+.vid {
+    height: 100%;
+	width: 100%;
+	object-fit: cover;		
+}	
+	
+.noughties {
+    font-family: lato;
+	text-align: justify;
+	font-size: 1.5vh;	
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	line-height: 120%;
+}
+
+	
+/*... Section 9 - Billie Eillish GQ Magazine ...*/	
+#section-section9 {
+    background-image: url("../images/section-9-billie-eilish-gq/section-9-billie-eilish-gq-mobile.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+}	
+	
+/*... Section 11 - Marie Claire ...*/
+#section-section11 {
+    background-image: url("../images/section-11-marie-claire/section-11-marie-claire-mobile.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+}
+	
+
+/*... Section 12 - Present Day ...*/
+.present {
+    font-family: lato;
+	text-align: justify;
+	font-size: 0.55rem;	
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	line-height: 120%;
+}	
+	
+
+	
+/*... Section 13 - Stormzy Elle Magazine ...*/
+#section-section13 {
+    background-image: url("../images/section-13-stormzy-elle-magazine/section-13-stormzy-elle-magazine-mobile.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+}
+
+/*... Section 14 - 2020s and beyond ...*/
+.twenties {
+    font-family: lato;
+	text-align: justify;
+	font-size: 0.55rem;	
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	line-height: 120%;
+}	
+	
+	
+}
+
+
